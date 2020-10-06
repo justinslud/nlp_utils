@@ -1,7 +1,7 @@
 import nltk
 from string import punctuation, digits, ascii_lowercase
 import sklearn
-from sklearn.text.feature_extraction import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 import numpy as np
 import re
 
